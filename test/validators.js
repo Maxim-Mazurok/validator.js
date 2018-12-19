@@ -1163,7 +1163,7 @@ describe('Validators', () => {
     });
   });
 
-  it('should validate urkrainian alpha strings', () => {
+  it('should validate ukrainian alpha strings', () => {
     test({
       validator: 'isAlpha',
       args: ['uk-UA'],
@@ -1559,7 +1559,7 @@ describe('Validators', () => {
     });
   });
 
-  it('should validate urkrainian alphanumeric strings', () => {
+  it('should validate ukrainian alphanumeric strings', () => {
     test({
       validator: 'isAlphanumeric',
       args: ['uk-UA'],
